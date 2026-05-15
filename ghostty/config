@@ -1,0 +1,41 @@
+# Ghostty Configuration
+
+# [1] 배경 및 투명도 설정
+background-opacity = 0.85
+background-blur-radius = 40
+
+# [2] 기본 색상 (VS Code Dark 스타일)
+foreground = #ffffff
+background = #1e1e1e
+
+# [3] 팔레트 조정 (가독성 긴급 개선)
+# 안내 문구(Shift+Tab 등)가 잘 보이도록 회색 계열을 대폭 밝게 조정
+palette = 0=#555555
+palette = 8=#bbbbbb
+
+# 초록색 (사용자 취향 반영)
+palette = 2=#70b070
+palette = 10=#90d090
+
+# [4] 텍스트 및 렌더링
+font-family = "Monaco"
+font-family = "AppleSDGothicNeo-Regular"
+font-size = 14
+
+# 글자 굵기 보정 (너무 과하면 뭉치므로 true 대신 기본값 유지 고려)
+font-thicken = true
+
+# [5] 기타 가독성 옵션
+# 선택 영역 색상 (잘 보이게)
+selection-foreground = #151515
+selection-background = #ffffff
+
+# 커서 설정
+cursor-style = block
+cursor-color = #ffffff
+
+# [6] 붙여넣기 설정
+# 줄바꿈이 포함된 텍스트 붙여넣기 시 경고 및 차단 비활성화
+clipboard-paste-protection = false
+# 브래킷 붙여넣기 모드에서 안전하게 붙여넣기 허용 (기본값 true이나 명시적 설정)
+clipboard-paste-bracketed-safe = true
