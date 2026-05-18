@@ -39,3 +39,6 @@ cursor-color = #ffffff
 clipboard-paste-protection = false
 # 브래킷 붙여넣기 모드에서 안전하게 붙여넣기 허용 (기본값 true이나 명시적 설정)
 clipboard-paste-bracketed-safe = true
+
+# [7] 탭
+macos-titlebar-style = tabs
